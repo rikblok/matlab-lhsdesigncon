@@ -1,25 +1,26 @@
 # lhsdesigncon (MATLAB)
 
-MATLAB function to generate am NxP latin hypercube sample with bounds
+MATLAB function to generate an NxP latin hypercube sample with bounds
 and linear constraints and optional exponential distribution.
 
 ## Getting the `lhsdesigncon` MATLAB function
 
 To use the `lhsdesigncon` function:
 
-1. Download from the files from either:
-* [MATLAB Central File Exchange](), or
-* [GitHub]().
+1. Download the zip file from either:
+* [MATLAB Central File Exchange](http://www.mathworks.com/matlabcentral/fileexchange/48927-rikblok-matlab-lhsdesigncon), or
+* [GitHub](https://github.com/rikblok/matlab-lhsdesigncon).
 2. Unzip the files and place them on your MATLAB path
    (e.g. your `My Documents/MATLAB` folder on Windows).
 3. Use the function (see [examples
    below](#matlab-function-description-and-examples)).
 
-This GitHub repo is a development library. To contribute fork this repo.
+This [GitHub repo](https://github.com/rikblok/matlab-lhsdesigncon) is a 
+development library. To contribute fork this repo and submit pull requests.
 
 ### MATLAB Function Description and Examples
 
-Generate am NxP latin hypercube sample with bounds
+Generate an NxP latin hypercube sample with bounds
 and linear constraints and optional exponential distribution.
 
 X=LHSDESIGNCON(N,P,LB,UB,ISEXP) generates a latin hypercube sample X
